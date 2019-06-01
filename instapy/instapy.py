@@ -89,7 +89,7 @@ class InstaPy:
     """Class to be instantiated to use the script"""
 
     def __init__(self,
-                 username=None,
+                 username=Nonee,
                  password=None,
                  nogui=False,
                  selenium_local_session=True,
